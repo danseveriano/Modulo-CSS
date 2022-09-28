@@ -1,0 +1,14 @@
+a:hover {
+    font-weight: bold;
+    color: green;
+}
+a:active {
+    color: red
+}
+div ~ span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkred;
+}
+ul ~ p {
+    color: brown;
+}
