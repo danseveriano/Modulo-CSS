@@ -1,0 +1,65 @@
+    body {
+        background-color: black;
+    }
+
+    #logo {
+        width: 100px;
+        height: auto;
+        margin: 10px;
+    }
+
+    #menu {
+        float: right;
+        margin-top: 30px;
+    }
+
+    .menu {
+        margin-left: 15px;
+    }
+
+    a {
+        color: aqua;
+        font-size: 22px;
+    }
+
+    a:hover {
+        font-weight: bolder;
+        color: deepskyblue;
+    }
+
+    a:active {
+        color: red
+    }
+
+    .settings {
+        width: 30px;
+        height: auto;
+        margin-left: 50px;
+    }
+
+    .menu2 {
+        margin-left: 15px;
+        margin-right: 300px;
+    }
+
+    .title {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: blanchedalmond;
+        margin-left: 10px;
+    }
+
+    .movies {
+        width: 324px;
+        height: 405px;
+        margin-left: 10px;
+        transform: translateZ(5px) scale(1);
+    }
+
+    .movies:hover {
+        transition: all .5s ease-in-out;
+        transform: translateZ(10px) scale(1.02);
+    }
+
+    #movies {
+        margin-left: 10px;
+    }
