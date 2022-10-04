@@ -1,0 +1,45 @@
+main {
+    width: 1000px;
+    display: flex;
+    margin: auto;
+}
+
+section {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+@font-face {
+    font-family: "Play";
+    src: url("./Play-Bold.ttf") format("truetype");
+}
+
+h1 {
+    font-size: 16px;
+    font-family: "Play";
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: "Play";
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: justify;
+}
+
+ol {
+    list-style-type: decimal;
+    display: flex
+}
+
+li {
+    margin-right: 28px;
+    font-family: "roboto";
+}
