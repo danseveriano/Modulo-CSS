@@ -41,5 +41,32 @@ ol {
 
 li {
     margin-right: 28px;
-    font-family: "roboto";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4b4b4b;
+    font-size: 12px;
 }
+
+table {
+    margin: auto;
+    padding-top: 20px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid #8da2bc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4b4b4b;
+    font-size: 12px;
+}
+
+table tr {
+    background-color: #879a87;
+    letter-spacing: 2px;
+}
+
+td {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #faebd7;
+  }
